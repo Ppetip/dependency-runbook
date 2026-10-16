@@ -1,0 +1,13 @@
+{
+  "services": {
+    "database": [],
+    "cache": [],
+    "api": [
+      "database",
+      "cache"
+    ],
+    "frontend": [
+      "api"
+    ]
+  }
+}
